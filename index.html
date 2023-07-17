@@ -31,6 +31,11 @@
             a range of other challenging social issues, is an area that I intend to study further.
      </p>
         <h3>1.2  Response to the brief (approximately 150 ‐ 200 words)</h3>
+        <div id="vaccine-div">
+            <img src="/resources/Pfizer.png" class="vaccine-logo">
+            <img src="/resources/AstraZeneca.png" class="vaccine-logo">
+            <img src="/resources/Moderna-Logo.jpg" class="vaccine-logo">
+        </div>
         <p>For this project, I have focused on alleviating the problem of too many people gathering in crowds indoors. 
             A high concentration of people in an enclosed area, prevents them from maintaining the required social 
             distance of 2 meters. This increases the risk of the virus spreading. So, by developing an information 
@@ -57,14 +62,6 @@
 
         <h2>3.  Design and Development of the Artefact</h2>
 
-            <ul>
-                <li>Computational thinking</li>
-                <li>Computer programming</li>
-                <li>Problem solving</li>
-                <li>Appropriate use of computing technologies</li>
-                <li>Awareness of potential social impacts</li>
-            </ul>
-
         <h3>3.1  The Iterative Design Process (approximately 700 ‐ 800 words)</h3>
 
         <p>
@@ -74,10 +71,11 @@
         <p>I've chosen the 'waterfall' design approach. I considered using 'agile', but since I do not have the 
             option of close cooperation of the end user on a regular basis, I felt that the 'waterfall' approach
         was more appropriate. The waterfall approach is in line with the project requirements, which requires formal, 
-        detailed documentation, making the deign process easier to understand for memebrs who join the team at a 
+        detailed documentation, making the deign process easier to understand for members who join the team at a 
         later stage.<br>
         The waterfall approach to software development involves a formal, more rigid approach to the design process.
-            It is a staged process, rather than an iterative process. Each stage of the process should be completed 
+            It is a staged process, rather than an iterative process but like most software projects, some iteration 
+            is common. Each stage of the process should be completed 
             before the next stage begins; and the stages should move in one direction, like a waterfall.<br>
             The features of a waterfall design process include:</p>
             <ul>
@@ -87,71 +85,72 @@
                 <li>Detailed, formal documentation</li>
             </ul><br>
             
-            <div id="vaccine-div">
-                <img src="/resources/Pfizer.png" class="vaccine-logo">
-                <img src="/resources/AstraZeneca.png" class="vaccine-logo">
-                <img src="/resources/Moderna-Logo.jpg" class="vaccine-logo">
-            </div>
 
             <h3>ITERATIVE DESIGN PROCESS</h3>
             
-            <table id="timeline">
-                <tr>
-                    <th>Dates</th>
-                    <th>Stages</th>
-                    <th>Notes</th>
-                </tr>
-                <tr>
-                    <td>10/01/21</td>
-                    <td>Investigate</td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td>15/01/21</td>
-                    <td>Plan</td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td>20/01/21</td>
-                    <td>Design</td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td>05/02/21</td>
-                    <td>Create</td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td>20/02/21</td>
-                    <td>Evaluate</td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td>01/03/21</td>
-                    <td>Document</td>
-                    <td></td>
-                </tr>
-            </table>
-
-            <p><u>Investigate:</u> I read through webpages and documents provided in the project brief:</p>
+           <img id="timeline" src="/resources/timeline.png">
+            
+            <p><u>Investigate:</u></p>
+            <p>I read through the webpages and documents provided in the project brief:</p>
                 <ul>
                     <li>General information on the coronavirus</li>
                     <li>Issues and measures to prevent the spread of the coronavirus</li>
                     <li>The use of technology to help reduce the spread of the virus</li>
                 </ul>
+                <p>I did further research on the topic using the internet, focusing on technological 
+                    solutions to help reduce the spread of Covid. I also became familiar with the 
+                    Microbit and it's accessories, to give me a better idea of potential solutions
+                    and limitations.
+                </p>
 
 
-            <p><u>Plan:</u> To help formulate a plan for the project, I made a mind-map, including all the 
-                relevent information.</p>
+            <p><u>Plan:</u></p>
+            <p>To help me make a plan for the project, I made a mind-map, including all the 
+                relevent information. Using abstraction, I represented subtopics keywords and phrases. This, along with the graphical aspect
+            of the mind-map, helped me to see the 'big picture'.</p>
                 <img id="mindmap" src="https://docs.google.com/drawings/d/e/2PACX-1vTGD2PO26_ZoPRRshCDNStoYLKy0tq7U2C0ffYo78PqessMluUGs84xm8Qhy_0mQm5PVHpPcWmMSTN5/pub?w=960&amp;h=520">
+                <p>Using the mind-map, I made notes on possible technological solutions, and I came up with an 
+                    information system for shops, to keep the number of customers in the shop under a maximum
+                    capacity, to allow people to maintain social distancing. As part of the plan, I kept 
+                    the timescale in mind to ensure the process is completed within the 8 week timeframe. I 
+                    also made a list of the necessary resources, such as hardware and software needed for the task. 
+                </p>
 
-            <p><u>Design:</u> Flowchart, notes.</p>
+            <p><u>Design:</u></p> 
+            <p>I used graphic design software to help me organise and design the project. It's a top-down design. 
+                As you can see from the diagram below, I utilised decomposition, to break down the problem into a set of
+                smaller, simpler tasks:</p>
+                <ul>
+                    <li>Write an algorithm for the program on the Microbit</li>
+                    <li>Use a python programme to transmit the data to a cloud database</li>
+                    <li>Retrieve the data from the database using Javascript</li>
+                    <li>Data analysis is done using python</li>
+                    <li>Display the data analysis on the website</li>
+                </ul> 
+                 
+            
+            <img id="project-design" src="/resources/project-design.png">
 
-            <p><u>Create:</u> Built embedded system, wrote python code, firebase database, HTML page.</p>
+            <p><u>Create:</u></p>
+            <ol>
+                <li>Built the embedded system using the microbit and accessories, including a battery pack, 
+                    breakout board, breadboard, jumper leads, and LEDs.</li>
+                <li>Makecode program written and downloaded to Microbit (screenshot of code below).</li>
+                <li>Microbit plugged into laptop and data transferred as a csv file.</li>
+                <li>Python program used to convert data and sent to firebase database.</li>
+                <li>Data retrieved from database and analysed using python.</li>
+                <li>Data analysis displayed on website.</li>
+            </ol> 
     
             <img src="resources/make-code-supermarket.png" id="make-code-supermarket">
 
-            <p><u>Evaluate:</u> Tested hardware and software.</p>
+            <p><u>Evaluate:</u></p>
+            
+            <ul>
+                <li>Code on Makecode tested first, using the online simulator</li>
+                <li>Code downloaded to Microbit and tested using the Microbit and accessories</li>
+                <li>The csv file was trasferred and verified when sent to the firebase database</li>
+            </ul>
 
             <p><u>Document:</u> Documented process throughout, making notes as part of the waterfall 
             design process.</p>

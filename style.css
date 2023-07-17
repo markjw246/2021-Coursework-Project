@@ -3,10 +3,15 @@ body{
     text-align: justify;
 }
 
+*{
+    box-sizing: border-box; 
+}
+
 #vaccine{
     float: right;
     width: 200px;
     margin-left: 25px;
+    border-radius: 2px;
 }
 
 #idp{
@@ -17,15 +22,17 @@ body{
 }
 
 .vaccine-logo{
-    width: 100px;
+    width: 150px;
     display: block;
 }
 
 #vaccine-div{
+    width: 200px;
     float: right;
     border: 1px solid grey;
     padding: 20px 25px 0px 25px;
-    border-radius: 25px;
+    border-radius: 2px;
+    margin-left: 25px;
 }
 
 table, th, td{
@@ -53,4 +60,19 @@ table, th, td{
     width: 650px;
     display: block;
     margin: 75px auto 75px auto;
+}
+
+#timeline{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#project-design{
+    display: block;
+    width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
